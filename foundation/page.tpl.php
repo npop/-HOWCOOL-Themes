@@ -9,7 +9,7 @@
    <script type="text/javascript">
      Cufon.replace('h1');
      Cufon.replace('a');
-    Cufon.replace('a');
+ 
     Cufon.replace('#weight');
         Cufon.replace('#point_carbon');
             Cufon.replace('#point_water');
