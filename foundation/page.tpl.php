@@ -6,10 +6,26 @@
  <?php print $head; ?>
  <?php print $styles; ?>
  <?php print $scripts; ?>
- <script type="text/javascript"> </script>
+   <script type="text/javascript">
+     Cufon.replace('h1');
+     Cufon.replace('a');
+    Cufon.replace('a');
+    Cufon.replace('#weight');
+        Cufon.replace('#point_carbon');
+            Cufon.replace('#point_water');
+            Cufon.replace('.HeadResult');
+                        Cufon.replace('.sufon');
+            
+//     Cufon.replace('label');
+     Cufon.replace('input');
+     Cufon.replace('h2',{hover:true, textShadow:'0 1px 1px #FFF'});
+   </script>
 </head>
 <body class="<?php print $body_classes; ?>">
     <!-- Navigate -->
+
+    
+   
     <?php if ($primary_links || $secondary_links): ?>
     <div class="navigation">
       <?php if ($primary_links): ?>
@@ -66,9 +82,9 @@
       <div class="mission"><?php print $mission; ?></div>
       <?php endif; ?>
 
-      <?php if ($title): ?>
+      <?/*php if ($title): ?>
       <h2 class="title"><?php print $title; ?></h2>
-      <?php endif; ?>
+      <?php endif; */?>
 
       <?php if ($help): ?>
       <div class="help"><?php print $help; ?></div>
@@ -89,7 +105,7 @@
   <div id="footer">
     <!-- Navigate -->
      <?php if ($primary_links || $secondary_links): ?>
-     <div class="navigation">
+     <div class="navigation-foot">
        <?php if ($primary_links): ?>
        <div class="navigation-primary">
          <?php print theme('links', $primary_links); ?>

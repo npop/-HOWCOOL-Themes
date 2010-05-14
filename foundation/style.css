@@ -3,7 +3,7 @@
 /* Reset the basic elements to a baseline. */
 body {
   color: #000000;
-  background: #9fc14c;
+  background: #9ec24d;
   font-family: Arial, Helvetica, sans-serif;
   margin: 10px;
   font-size: 13px;
@@ -379,18 +379,32 @@ body.no-sidebars .footer {
    background-color:white;
 }
 .navigation-primary .links li{
-   background-color:white;
+   /*background-color:white;*/
 
 }
 .navigation-primary .links li a{
    text-decoration:none;
-   color:#9fc14c;
+   color:#9ec24d;
    font-size:30px;
    font-weight: bold;
 }
+#footer .navigation-foot {
+  border-top:20px solid white;
+}
+#footer .navigation-foot .navigation-primary .links li a{
+  /*background-color:white;*/
+  color:white;
+
+}
+#footer .navigation-foot .navigation-secondary {
+}
 #page{
-   background-color:#9fc14c;
+   background-color:#90c23f;
 }
 #sponser {
    /*background-color:white;*/
-} 
+}
+.cool_check .form-checkboxes  {
+  
+}
+
